@@ -12,11 +12,8 @@ $sender_name = "Сергей Цветков [Администратор]";// $se
 
 
 $result = SendMailGRMPAttachment($mail, $subject, $message, $sender_mail, $sender_name, $target_file);
+echo "Тестируем GIT";
 echo "Сообщение с вложением 'test.txt' для {$mail} от {$sender_mail} отправлено. {$result}";
-
-
-
-
 
 
 /* Работает отправка
